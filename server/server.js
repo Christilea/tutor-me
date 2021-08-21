@@ -11,13 +11,12 @@ const PORT = process.env.PORT || 3001;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(passport.initalize());
 app.use(cors());
 
-require('./routes/login_routes')(app);
+// require('./routes/login_routes')(app);
 
-app.use(require("./routes/login_routes"))(app);
-app.use(require("./routes/recipe_routes"));
+// app.use(require("./routes/login_routes"))(app);
+// app.use(require("./routes/recipe_routes"));
 
 if (process.env.NODE_ENV === "production") {
     app.use(express.static("client/build"));
