@@ -4,4 +4,4 @@ const Calendar = require('./Calendar');
 const Student = require('./Student');
 const Teacher = require('./Teacher');
 
-module.exports = { User, Login, Calendar };
+module.exports = { User, Login, Calendar, Student, Teacher };
