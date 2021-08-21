@@ -10,9 +10,17 @@
         "seed": "cd server && npm run seed",
         "build": "cd client && npm run build"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/spirithoula/tutor-me"
+    },
     "keywords": [],
     "author": "",
     "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/spirithoula/tutor-me/issues"
+    },
+    "homepage": "https://github.com/spirithoula/tutor-me#readme",
     "devDependencies": {
         "concurrently": "^6.2.1"
     }
