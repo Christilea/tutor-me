@@ -15,11 +15,12 @@ isTeacher:{
     type:Boolean,
     required:true,
     default:false,
-}
-isAdmin:{type:Boolean,
+},
+isAdmin:{
+    type:Boolean,
     required:true,
     default:false,
-}}
+}})
 
 const Student = mongoose.model("Student",studentSchema)
 
