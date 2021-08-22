@@ -21,7 +21,7 @@ isAdmin:{
     type:Boolean,
     required:true,
     default:false,
-}}
+}})
 
 const Teacher = mongoose.model("Teacher",teacherSchema)
 
