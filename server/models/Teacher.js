@@ -16,8 +16,9 @@ isTeacher:{
     type:Boolean,
     required:true,
     default:true,
-}
-isAdmin:{type:Boolean,
+},
+isAdmin:{
+    type:Boolean,
     required:true,
     default:false,
 }}
