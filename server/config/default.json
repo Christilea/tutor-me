@@ -1,4 +1,0 @@
-{
-    "mongoURI":"mongodb+srv://christilea:Tribal1124!@cluster0.ic9hs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "jwtSecret":"mysecrettoken"
-    }
