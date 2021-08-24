@@ -11,7 +11,7 @@ import Profiles from '../profiles/Profiles';
 import Profile from '../profile/Profile';
 import Posts from '../posts/Posts';
 import Post from '../post/Post';
-import NotFound from '../layout/NotFound';
+import NotFound from '../../components/layout/Notfound';
 import PrivateRoute from './PrivateRoute';
 import AddBooking from '../profile-forms/AddBooking';
 
