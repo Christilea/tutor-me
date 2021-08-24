@@ -33,17 +33,17 @@ const Education = ({ education, deleteEducation }) => {
             <th className="hide-sm">Degree</th>
             <th className="hide-sm">Years</th>
             <th />
-        </tr>
+          </tr>
         </thead>
         <tbody>{educations}</tbody>
-    </table>
+      </table>
     </Fragment>
-);
+  );
 };
 
 Education.propTypes = {
-education: PropTypes.array.isRequired,
-deleteEducation: PropTypes.func.isRequired
+  education: PropTypes.array.isRequired,
+  deleteEducation: PropTypes.func.isRequired
 };
 
 export default connect(null, { deleteEducation })(Education);
