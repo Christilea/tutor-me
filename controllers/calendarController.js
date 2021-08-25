@@ -1,5 +1,6 @@
 const asyncHandler = require("express-async-handler")
 const Calendar = require("../models/Calendar")
+const calendarPage = require("../client/src/components/calendar/Calendar")
 const addEvent = asyncHandler((req,res) => {
     
     newEntry.save(function(error,entry){
