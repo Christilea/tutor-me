@@ -14,7 +14,7 @@ const Navbar = ({ auth: { isAuthenticated }, logout }) => {
         <Link to="/posts">Posts</Link>
       </li>
       <li>
-        <Link to="/Calendar">Calendar</Link>
+        <Link to="/calendar">Calendar</Link>
       </li>
       <li>
         <Link to="/dashboard">
@@ -37,7 +37,7 @@ const Navbar = ({ auth: { isAuthenticated }, logout }) => {
         <Link to="/profiles">Developers</Link>
       </li>
       <li>
-        <Link to="/Calendar">Calendar</Link>
+        <Link to="/calendar">Calendar</Link>
       </li>
       <li>
         <Link to="/register">Register</Link>
