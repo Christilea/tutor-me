@@ -1,10 +1,10 @@
 /* Global Styles */
 :root {
-  --primary-color: #01515e;
-  --dark-color: #3a434d;
+  --primary-color: #3653f3;
+  --dark-color: #676f77;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
-  --success-color: #28a745;
+  --success-color: #165224;
 }
 
 * {
