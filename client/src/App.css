@@ -1,7 +1,7 @@
 /* Global Styles */
 :root {
   --primary-color: #3653f3;
-  --dark-color: #676f77;
+  --dark-color: #060a0e;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
   --success-color: #165224;
@@ -10,14 +10,14 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 2.5;
+  padding: 0.5;
 }
 
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
+  background-color: rgb(228, 227, 230);
   color: #333;
 }
 
@@ -40,15 +40,15 @@ img {
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
-  margin-top: 6rem;
+  margin-top: 5rem;
   margin-bottom: 3rem;
 }
 
 /* Text Styles*/
 .x-large {
-  font-size: 4rem;
+  font-size: 6rem;
   line-height: 1.2;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .large {
