@@ -13,7 +13,7 @@ const Landing = ({ isAuthenticated }) => {
       <div className="dark-overlay">
         <div className="landing-inner">
           <h1 className="x-large">Tutor-Me</h1>
-          <p className="lead">Where Students find Tutors for software development assistance</p>
+          <p className="lead">Students find Tutors for software development assistance</p>
           <div className="buttons">
             <Link to="/register" className="btn btn-primary">
               Sign Up

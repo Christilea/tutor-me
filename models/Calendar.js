@@ -28,7 +28,7 @@ const calendarSchema = mongoose.Schema({
 //         },
 //         description: {
 //             type: DataTypes.STRING
-          
+        
 //         },
 //         location: {
 //             type: DataTypes.STRING
